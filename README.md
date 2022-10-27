@@ -1,6 +1,6 @@
 # Astro Pi 2022/23
 
-This repository contains the study and report of experiments with the Astro Pi for the [European Astro Pi Challenge 2022/23](https://astro-pi.org/), (Mission Space Lab](https://astro-pi.org/mission-space-lab/).
+This repository contains the study and report of experiments with the Astro Pi for the [European Astro Pi Challenge 2022/23](https://astro-pi.org/), [Mission Space Lab](https://astro-pi.org/mission-space-lab/).
 It is part of the [educational repositories](https://github.com/pandle/materials) to learn how to manage a project.
 
 ## Study
