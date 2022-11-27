@@ -26,8 +26,8 @@ What we have learned:
 
 What we have learned:
 
-* creation the catalogue of objects in the ISS
-* training of the model with those objects (and people of the ISS team)
+* creation of the catalogue of the objects (and people) on the ISS
+* training of the model with those objects (and people)
 * testing with the ISS web site
 
 ## Experiment on the Space
