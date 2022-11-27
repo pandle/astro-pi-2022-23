@@ -24,6 +24,13 @@ What we have learned:
 
 ## Training model to recognize the objects in the ISS
 
+What we have learned:
+
 * creation the catalogue of objects in the ISS
 * training of the model with those objects (and people of the ISS team)
 * testing with the ISS web site
+
+## Experiment on the Space
+
+What we have learned:
+
