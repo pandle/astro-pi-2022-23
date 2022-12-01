@@ -1,0 +1,11 @@
+ipykernel
+#virtualenv
+
+matplotlib
+numpy
+pandas
+scipy
+
+opencv-python
+picamera
+yolov4-cv

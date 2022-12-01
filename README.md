@@ -10,9 +10,9 @@ Before to subcribe the team, we have evaluated some experiments and the public d
 
 What we have learned:
 
-* what a github repository is and how to pull, commit and push a change
-* how to read the graphics of the Astro PI metrics
-* what the machine learning steps are
+* [how to](TOOLS.md) use the tools for this project
+* [how to](study/README.md) read the graphics of the Astro PI metrics
+* what the machine learning [steps](https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-1-getting-ready-for-machine-learning/a-6-step-framework-for-approaching-machine-learning-projects.md) are
 
 ## Experiment on the Earth
 
