@@ -26,7 +26,7 @@ ipython kernel install --user --name=my_jupyter_kernel # to associate your envir
 
 ## Python packages
 
-The method to install on your environment the Python packages, when they are a lots, it is by a file that you can find in the document root of thie repository.
+The method to install on your environment the Python packages, when they are a lots, it is by a file that you can find in the document root of this repository.
 
 ```sh
 pip3 install -r requirements.txt
