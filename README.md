@@ -14,6 +14,8 @@ What we have learned:
 * [how to](study/README.md) read the graphics of the Astro PI metrics
 * what the machine learning [steps](https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-1-getting-ready-for-machine-learning/a-6-step-framework-for-approaching-machine-learning-projects.md) are
 
+## Project details
+
 ## Experiment on the Earth
 
 What we have learned:
