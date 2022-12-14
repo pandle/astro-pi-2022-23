@@ -18,7 +18,7 @@ It contains more csv files where it is saved one record every 10 seconds:
 
 All these data have the same format, so we also could all join together or compare them.
 
-#### 1.1 [Our2015Analysis.ipynb](study/Our2015Analysis.ipynb)
+#### 1.1 [Our2015Analysis.ipynb](Our2015Analysis.ipynb)
 
 There are just over 3 days of data where we can see fluctuations in values for each metric.
 * 'temp_cpu', 'temp_h', 'temp_p', 'humidity' metrics have a strong correlation
@@ -41,24 +41,24 @@ There are 3 interesting moments that we can describe.
 
 The last one moment could be an interesting range to be explored.
 
-#### 1.2 [OurColumbusAnalysis.ipynb](study/OurColumbusAnalysis.ipynb)
+#### 1.2 [OurColumbusAnalysis.ipynb](OurColumbusAnalysis.ipynb)
 
-#### 1.3 [OurColumbus2Analysis.ipynb](study/OurColumbus2Analysis.ipynb)
+#### 1.3 [OurColumbus2Analysis.ipynb](OurColumbus2Analysis.ipynb)
 
-#### 1.4 [OurNode2Analysis.ipynb](study/OurNode2Analysis.ipynb)
+#### 1.4 [OurNode2Analysis.ipynb](OurNode2Analysis.ipynb)
 
-### 2. [jcb55/iss-astro-pi-data-browser](https://github.com/jcb55/iss-astro-pi-data-browser)
+### 2. [jcb55/iss-astro-pi-data-browser](https://github.com/jcb55/iss-astro-pi-data-browser), [OurColumbusAnalysis.ipynb](OurColumbusAnalysis.ipynb)
 
 It contains the same file describe above `Columbus_Ed_astro_pi_datalog.csv.gz`.
 
-### 3. [astro-pi/SpaceCRAFT](https://github.com/astro-pi/SpaceCRAFT)
+### 3. [astro-pi/SpaceCRAFT](https://github.com/astro-pi/SpaceCRAFT), [OurSpaceCRAFTAnalysis.ipynb](OurSpaceCRAFTAnalysis.ipynb)
 
 It contains a csv file, `SpaceCRAFT_20160209_104426.csv`, where it is saved one record every 10 seconds from 2016-02-09 10:44:26.564993 to 2016-02-16 10:44:16.592219.
 
-### 4. [jpalau-edu/AstroPi2021](https://github.com/jpalau-edu/AstroPi2021)
+### 4. [jpalau-edu/AstroPi2021](https://github.com/jpalau-edu/AstroPi2021), [OurJunoAnalysis.ipynb](OurJunoAnalysis.ipynb)
 
 It contains a csv file, `juno_data.csv`, where it is saved one record every 11-12 seconds from 2021-04-19 17:48:11 to 2021-04-19 20:46:04.
 
-### 5. [giamby3000/RedsTeam_AstroPi22](https://github.com/giamby3000/RedsTeam_AstroPi22)
+### 5. [giamby3000/RedsTeam_AstroPi22](https://github.com/giamby3000/RedsTeam_AstroPi22), [OurAstropiAnalisys.ipynb](OurAstropiAnalisys.ipynb)
 
 It contains a csv file, `HeaderLog.csv`, where it is saved 3-6 records per second from 2022-04-18 19:57:14:422517 to 2022-04-18 22:54:12:650693.
