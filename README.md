@@ -28,7 +28,7 @@ What we have learned:
 
 What we have learned:
 
-* creation of the catalogue of the objects (and people) on the ISS
+* creation of the [catalogue](CATALOGUE.md) of the objects (and people) on the ISS
 * training of the model with those objects (and people)
 * testing with the ISS web site
 
