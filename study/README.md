@@ -58,6 +58,14 @@ It contains a csv file, `SpaceCRAFT_20160209_104426.csv`, where it is saved one 
 ### 4. [jpalau-edu/AstroPi2021](https://github.com/jpalau-edu/AstroPi2021), [OurJunoAnalysis.ipynb](OurJunoAnalysis.ipynb)
 
 It contains a csv file, `juno_data.csv`, where it is saved one record every 11-12 seconds from 2021-04-19 17:48:11 to 2021-04-19 20:46:04.
+Initially there are three metrics: 
+* CPU_temp, 
+* Sense_temp, 
+* Sense_Hum
+these are quite stable and have a good correlation, because initially as a single metric varies, it is noted that the other 2 also vary.
+Looking at the orientation metrics in a graph, you notice that the graph is "noisy" or that the orientation is constantly changing. At a certain point, the orientation stabilizes for the metrics of the X and Y axes, while it stabilizes in 2 short periods for the metrics of the Z axis, and then resumes its continuous variation.
+Same thing goes for the magnetometer, the metrics keep changing over time. The magnetometer metrics in the X and Y axes follow a similar pattern.
+The gyroscope and accelerometer graphs do not show large variations (except for 2 peaks).
 
 ### 5. [giamby3000/RedsTeam_AstroPi22](https://github.com/giamby3000/RedsTeam_AstroPi22), [OurAstropiAnalisys.ipynb](OurAstropiAnalisys.ipynb)
 
