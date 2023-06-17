@@ -1,0 +1,7 @@
+8a0c337c13a666142833f7485dfec8f3  /home/sandbox/msl/DgVeneto/snapshot.before
+590ce6e4d2c1c84cff3f63a689e18a56  /home/sandbox/msl/DgVeneto/events.log
+e6b472da0921281179f42ea55c1c59a8  /home/sandbox/msl/DgVeneto/data.csv
+86aa54faed71e500d8482e71cbc7ea91  /home/sandbox/msl/DgVeneto/time.txt
+0a88f639ae9b908d5adbc94bff491715  /home/sandbox/msl/DgVeneto/output.log
+8cea315ee9ea02bb13b3041905448cd9  /home/sandbox/msl/DgVeneto/status.txt
+7c5a4ab43d283b1f95751c8fb6228510  /home/sandbox/msl/DgVeneto/main.py
