@@ -30,3 +30,9 @@ ones.
 ones.
 * The timestamp is represented in microseconds elapsed since the start of the experiment.
 * All the estimated measurement have value "-1". *(**not** useful for the data analysis)* 
+
+## [`GeneralAnalysis.ipynb`](./GeneralAnalysis.ipynb)
+**This is useful to have a macro overview of data received**
+
+* The metrics of the magnetometer show a different behavior than that described in [Vidhya’s code](https://www.esa.int/Education/AstroPI/And_the_finalists_of_the_2019-20_Astro_Pi_Challenge_Mission_Space_Lab_are)
+* The Pearson's correlation is very low between metrics and the feature named motion_detection
