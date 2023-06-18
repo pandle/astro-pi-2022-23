@@ -4,7 +4,7 @@ We need to store the images about ISS team and instruments that Astro PI can tak
 
 ## Images
 
-We can visit the ISS by [Google Earth](https://earth.google.com/web/). So we can take piture of the [Columbus module](https://en.wikipedia.org/wiki/Columbus_(ISS_module)) to know which permanent instruments the Astro PI can take with its camera.
+We can visit the ISS by [Google Earth](https://earth.google.com/web/). So we can take picture of the [Columbus module](https://en.wikipedia.org/wiki/Columbus_(ISS_module)) to know which permanent instruments the Astro PI can take with its camera.
 
 ![columbus](images/columbus-module.png)
 
@@ -26,3 +26,7 @@ Our goal is to take pictures and to catalogue them with what there is in.
 * machine learning model will learn to recognize objects with these pictures
 * when Astro PI will take a picture, the machine learning model will recognize the objects
 * we cannot save pictures, so we will store objects observed over time
+
+## Project scaling
+
+Having no time we used something much simpler for the recognition of a human shape by [opencv-python](https://pypi.org/project/opencv-python/).
