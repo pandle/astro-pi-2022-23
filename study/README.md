@@ -55,6 +55,52 @@ It contains the same file describe above `Columbus_Ed_astro_pi_datalog.csv.gz`.
 
 It contains a csv file, `SpaceCRAFT_20160209_104426.csv`, where it is saved one record every 10 seconds from 2016-02-09 10:44:26.564993 to 2016-02-16 10:44:16.592219.
 
+The data provided by the study spans over 7 days and it shows that:
+* There is a correlation between the 'temp_cpu', 'temp_h', 'temp_p' and 'humidity' metrics.
+
+* Said metrics do not seem to be correlated with the 'pressure' metric, as its change towards
+the 25000th measurement does not seem to affect 'temp_cpu', 'temp_h', 'temp_p' and 'humidity'.
+
+* There is, obviously, a correlation between the 'orientation radians' and 'orientation degrees'
+metrics, since radians and degrees are different units of measurement for angles.
+
+More specific observations can be made concerning the 'orientation', 'compass', 'gyroscope' 
+and 'accelerometer' metrics, though.
+
+* It can be observed clearly how the orientation of the device fluctuated constantly throughout
+the analyzed time period.
+
+  * At first (between times 0 and 4000), the device's yaw fluctuated between 1 and 3 radians 
+  (0 and ~10000) degrees
+
+  * From that point onwards, the yaw orientation fluctuated periodically between -3 and 0 radians 
+  following a sine wave pattern. This pattern is interesting, though, because the peak of this sine
+  wave was not constant, but flluctuated periodically between -1 and -0 radians 
+  (~16000 and ~20000 deg)
+
+  * Similarly, the device's roll orientation fluctuated between 0.9 and 1.1 radians (3300-3600 deg) 
+  throughout the entire length of the experiment. Furthermore, the device's pitch orientation 
+  fluctuated between -0.1 and 0.1 radians.
+
+  * It can be derived that the device was oscillating constantly and periodically,
+  throughout the entire experiment.
+
+* The readings for the 'compass' metrics show how the magnetic field detected by the device changed.
+They show that for all the three axes, the compass values oscillated periodically.
+
+  * The 3d plot of the 'compass' metrics, show that, over time, that the magnetic field,
+   detected by the compass sensor, followed a pseudo-circular motion, while also going 
+   downwards.
+
+  * The accelerometer values further confirm said motion, as the values for 'accelerometer raw y'
+  and 'accelerometer raw z' were constantly fluctuating around the 0.02 and 0.01 mark, 
+  respectively. This means that the device's position was changing continuously on the y and z axes.
+
+* The gyroscope values were almost always fluctuating around -0.005 and 0.005, except for 
+specific peaks at random intervals. Therefore, most of the time, the gyroscope never measured any
+relevant change in value.
+
+
 ### 4. [jpalau-edu/AstroPi2021](https://github.com/jpalau-edu/AstroPi2021), [OurJunoAnalysis.ipynb](OurJunoAnalysis.ipynb)
 
 It contains a csv file, `juno_data.csv`, where it is saved one record every 11-12 seconds from 2021-04-19 17:48:11 to 2021-04-19 20:46:04.
