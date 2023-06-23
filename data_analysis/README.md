@@ -36,4 +36,4 @@ ones.
 
 * The metrics of the magnetometer show a different behavior than that described in [Vidhya’s code](https://www.esa.int/Education/AstroPI/And_the_finalists_of_the_2019-20_Astro_Pi_Challenge_Mission_Space_Lab_are)
 * The Pearson's correlation is very low between metrics and the feature named motion_detection
-* The resolution is different among sensors and microgravity needs at least ${10^-8}$ and maybe it is possible to detect it
+* The resolution is different among sensors and microgravity needs at least ${10^{-8}}$ and maybe it is possible to detect it
